@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+:root{
+    --navbar-height:59px;
+
+
+}
+#navbar{
+    position: relative;
+    display:flex;
+    align-items: center;
+   
+
+
+}
+#logo {
+    margin: 2px 22px;
+    
+
+
+}
+#logo img{
+    margin: 10px;
+    height: 110px;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2px;
+    z-index:-1;
+    opacity:0.8;
+
+
+}
+#navbar ul{
+    display: flex;
+
+}
+#navbar ul li{
+   
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    color: ghostwhite;
+    display:block;
+    padding: 5px 44px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+#navbar ul li a:hover{
+    color:black;
+    display:block;
+    background-color: cornsilk;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home::before{
+    content: "";
+    background-color:rgb(154, 219, 186) ;
+    margin-top: 20px;
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    z-index:-2;
+
+}
+#home p{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+     font: 1.5rem;
+     text-align: center;
+     justify-content: center;
+     padding: 30px;
+}
+.primary{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.btn{
+    padding: 6px 25px;
+    border: 2px;
+    background-color: khaki;
+    border-radius: 10px;
+    margin: 15px;
+    cursor: pointer;
+}  
+.cont{
+    display: flex;
+    text-align: center;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    
+}
+.classes{
+    flex: 2;
+    
+    
+    padding:50px;
+}
+.classes h1{
+    font-size:2rem ;
+    margin-bottom: 25px;
+}
+.classes p{
+    font-size: 18px;
+    padding: 15px;
+    
+
+}
+.photos{
+    flex:1;
+    text-align: center;
+    padding: 30px;
+
+
+    
+
+
+}
+.photos img{
+    height:50%;
+    width: 50%;
+
+}
+
