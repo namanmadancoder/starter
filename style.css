@@ -653,6 +653,10 @@ body{
         ;
     }
     
+    .jstry{
+        border-right: 3px solid black;
+        animation: caret 1s steps(1) infinite;
+    }
     
 
 
