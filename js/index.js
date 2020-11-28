@@ -1,13 +1,12 @@
 
 document.addEventListener('DOMContentLoaded',function(event){  //html site open
-  console.log("error")
-   
+
 
     
-    var dataText = [ "Hello, how are you ?", "Welcome to StartSmart.", "We provide with quality education.", "Join our course  and  make your dreams come true"];
+    var dataText = [ "Hello, how are you ?", "Welcome to StartSmart.", "We provide  quality education in your language.", "Join our course  and  make your dreams come true."];
     function typeWriter(text, i, fnCallback) {
       if (i < (text.length)) {
-       document.querySelector("#kathan").innerHTML = text.substring(0, i+1) +'<span class="jstry" aria-hidden="true"></span>';
+       document.querySelector("#naman").innerHTML = text.substring(0, i+1) +'<span class="jstry" aria-hidden="true"></span>';
 
         setTimeout(function() {
           typeWriter(text, i + 1, fnCallback)
